@@ -28,7 +28,7 @@ function Pokemon() {
             console.log(err);
         }
     }
-    console.log(data);
+
 
     useEffect(() => {
         fetchData();
@@ -80,7 +80,7 @@ function Pokemon() {
 
         }
     };
-console.log(imgs,"imgssss")
+
     const handlePrev = async() => {
         try {
             if(prev){
